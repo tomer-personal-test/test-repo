@@ -1,7 +1,7 @@
 import os
 import yaml 
 
-os.system("ls -l")
+os.system("ls -l") 
  
 def fetch_zip_files(url): 
     zip_filename = url.split('/')[-1]
