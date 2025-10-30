@@ -7,7 +7,7 @@ def fetch_zip_files(url):
     zip_filename = url.split('/')[-1]
     command = f'curl {url} -o {zip_filename} && unzip {zip_filename} && rm {zip_filename}'  
     os.system(command)
-    
+     
 fetch_zip_files('http://example.com/archive.zip')   
 
 
