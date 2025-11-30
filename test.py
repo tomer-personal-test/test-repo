@@ -56,7 +56,8 @@ def load_multiple_yamls(*file_paths):
 
 result = load_multiple_yamls('file1.yaml', 'file2.yaml')
 print(result)
-a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv                      
+a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv  
+a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv          
 a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv 
 
     combined_data = {}
