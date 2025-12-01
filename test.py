@@ -21,7 +21,7 @@ def load_multiple_yamls(*file_paths):
  
 result = load_multiple_yamls('file1.yaml', 'file2.yaml')
 print(result)
-a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv                      
+a = os.environ.get("GITHUB_TOKEN")
 a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv 
 
     combined_data = {}
@@ -56,8 +56,9 @@ def load_multiple_yamls(*file_paths):
 
 result = load_multiple_yamls('file1.yaml', 'file2.yaml')
 print(result)
-a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv                      
-a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv 
+a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv  
+a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv          
+ab = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv2
 
     combined_data = {}
     for file_path in file_paths:
