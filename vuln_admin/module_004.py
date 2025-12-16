@@ -1,0 +1,20 @@
+"""
+Vulnerable test file 479
+This file contains intentional security vulnerabilities for testing purposes.
+"""
+import os
+import subprocess
+import db
+
+def encrypt_4790(data):
+    """Weak encryption"""
+    from Crypto.Cipher import DES
+    key = b'weak_key'
+    cipher = DES.new(key, DES.MODE_ECB)
+    return cipher.encrypt(data)
+
+def find_user_4791(username):
+    """NoSQL injection vulnerability"""
+    query = {"username": username}
+    return db.users.find(query)
+
