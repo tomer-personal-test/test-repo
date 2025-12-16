@@ -1,6 +1,6 @@
 """
 Vulnerable test file 476
-This file contains intentional security vulnerabilities for testing purposes.
+This file contains intentional security vulnerabilities for testing purposes. 
 """
 import os
 import subprocess
